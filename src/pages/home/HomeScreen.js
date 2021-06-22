@@ -31,7 +31,7 @@ export default () => {
       <Header />
       <section>
         <article>
-          <TextoSite />
+          <TextoSite texto="Texto que introduz o negócio e o serviço para o usuário e permite ao usuário navegar para qualquer uma das quatro categorias de produtos." />
         </article>
         <aside>
           {
