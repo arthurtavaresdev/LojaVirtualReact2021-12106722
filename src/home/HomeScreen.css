@@ -1,0 +1,29 @@
+section {
+  display: flex;
+}
+
+section article {
+  flex-basis: 40%;
+  background-color: #32a4e7;
+  padding: 15px;
+  color: white;
+}
+
+section aside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (max-width: 900px) {
+  body {
+    width: auto;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+  }
+}

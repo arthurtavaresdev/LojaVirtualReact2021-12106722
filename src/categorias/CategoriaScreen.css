@@ -1,0 +1,37 @@
+#root {
+  display: grid;
+  grid-template-areas:
+   "header header header"
+   "nav nav nav"
+   "menu table table"
+   "footer footer footer";
+
+  grid-column-gap: 30px; /* No final*/
+}
+
+header {
+  grid-area: header
+}
+
+header + nav {
+  height: 30px;
+  padding: 20px;
+
+  grid-area: nav;
+
+  /* Misturando CSS Grid com Flexbox */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav + nav {
+  grid-area: menu;
+}
+
+aside {
+  grid-area: table;
+}
+
+footer {
+  grid-area: footer;
+}

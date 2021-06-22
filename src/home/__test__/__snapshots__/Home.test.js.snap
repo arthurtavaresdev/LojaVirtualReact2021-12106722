@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validar fotografia da tela 1`] = `
+<div
+  data-testid="home-screen"
+>
+  <header
+    data-testid="main-header"
+  >
+    <img
+      alt="Logo"
+      src="logo.png"
+    />
+    <h1>
+      Loja Virtual
+    </h1>
+  </header>
+  <section>
+    <article>
+      <p
+        class="textoIntrodutorio"
+      >
+        Texto que introduz o negócio e o serviço para o usuário e permite ao usuário navegar para qualquer uma das quatro categorias de produtos.
+      </p>
+    </article>
+    <aside />
+  </section>
+  <footer>
+    Newton - 2020 - Todos os direitos reservados.
+  </footer>
+</div>
+`;

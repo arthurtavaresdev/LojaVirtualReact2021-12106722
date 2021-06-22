@@ -1,0 +1,30 @@
+#root {
+  display: inline;
+}
+
+.acoes {
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ column-gap: 10px;
+}
+
+.acoes button {
+  height: 40px;
+  width: 250px;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.total span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+}
+
+.total span:last-child {
+  color: red;
+}
