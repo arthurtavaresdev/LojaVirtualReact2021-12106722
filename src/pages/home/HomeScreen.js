@@ -2,19 +2,14 @@ import React, {useState, useEffect} from 'react'
 
 import {Link} from 'react-router-dom'
 
-import Header from './Header'
-import Footer from './Footer'
-import TextoSite from './TextoSite'
-import CardCategoria from './CardCategoria'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import TextoSite from '../../components/TextoSIte'
+import CardCategoria from '../../components/CardCategoria'
 
 import './HomeScreen.css'
 
-import * as CategoriaApi from './CategoriaApi'
-
-//import androidImg from './android.png'
-//import appleImg from './apple.png'
-//import playstationImg from './playstation.png'
-//import windowsImg from './windows.png'
+import * as CategoriaApi from '../../services/CategoriaApi'
 
 export default () => {
   

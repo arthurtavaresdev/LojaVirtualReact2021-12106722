@@ -2,13 +2,13 @@ import React, {useState, useEffect} from 'react'
 
 import {useParams, useHistory} from 'react-router-dom'
 
-import Header from '../home/Header'
-import MenuCategorias from './MenuCategorias'
-import TabelaProdutos from './TabelaProdutos'
-import Footer from '../home/Footer'
+import Header from '../../components/Header'
+import MenuCategorias from '../../components/MenuCategorias'
+import TabelaProdutos from '../../components/TabelaProdutos'
+import Footer from '../../components/Footer'
 
-import * as CategoriaApi from '../home/CategoriaApi'
-import * as ProdutoApi from './ProdutoApi'
+import * as CategoriaApi from '../../services/CategoriaApi'
+import * as ProdutoApi from '../../services/ProdutoApi'
 
 import './CategoriaScreen.css'
 

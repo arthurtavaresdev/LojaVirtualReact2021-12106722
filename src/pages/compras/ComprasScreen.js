@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Header from '../home/Header'
-import Footer from '../home/Footer'
-import TabelaCompras from './TabelaCompras'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import TabelaCompras from '../../components/TabelaCompras'
 
 import './ComprasScreen.css'
 

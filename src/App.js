@@ -6,9 +6,9 @@ import {
   Route
 } from 'react-router-dom'
 
-import HomeScreen from './home/HomeScreen'
-import CategoriaScreen from './categorias/CategoriaScreen'
-import ComprasScreen from './compras/ComprasScreen'
+import HomeScreen from './pages/home/HomeScreen'
+import CategoriaScreen from './pages/categorias/CategoriaScreen'
+import ComprasScreen from './pages/compras/ComprasScreen'
 
 function App() {
   const [compras, setCompras] = useState([])

@@ -1,7 +1,7 @@
 import React from 'react'
 import './TabelaCompras.css'
 
-export default ({lista = []}) => (
+export default ({lista = [], removeProduto}) => (
   <table>
     <thead>
       <tr>
@@ -24,7 +24,7 @@ export default ({lista = []}) => (
             <td>{l.quantidade}</td>
             <td>{l.produto.preco}</td>
             <td>{l.quantidade * l.produto.preco}</td>
-            <td><button>Remover</button></td>
+            <td><button onClick={removeProduto}>Remover</button></td>
           </tr>
         )
       }
