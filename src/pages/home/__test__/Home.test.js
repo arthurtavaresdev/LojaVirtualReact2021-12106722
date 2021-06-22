@@ -2,7 +2,7 @@ import React from 'react'
 import {MemoryRouter} from 'react-router-dom'
 import {getByAltText, render, wait} from '@testing-library/react'
 import HomeScreen from '../HomeScreen'
-import * as CategoriaApi from '../CategoriaApi'
+import * as CategoriaApi from '../../../services/CategoriaApi'
 
 test('Validar fotografia da tela', () => {
     const {getByTestId} = render(<HomeScreen />)
